@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "djangospice-api"
+version = "0.1.0"
+
+description = "Reusable API utilities for Django and Django REST Framework."
+
+readme = "README.md"
+
+requires-python = ">=3.12"
+
+license = { text = "MIT" }
+
+authors = [
+    { name = "Brian Simpokolwe", email = "briansimpokolwe@gmail.com" }
+]
+
+keywords = [
+    "django",
+    "django-rest-framework",
+    "djangospice",
+    "djangospice-api",
+    "rest-api",
+    "api",
+]
+
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+
+    "Framework :: Django",
+    "Framework :: Django :: 5",
+    "Framework :: Django :: 6",
+
+    "Intended Audience :: Developers",
+
+    "License :: OSI Approved :: MIT License",
+
+    "Operating System :: OS Independent",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+
+dependencies = [
+    "django>=5.0",
+    "djangorestframework>=3.15",
+    "drf-spectacular>=0.30.0"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/briansimpo/djangospice_api"
+Repository = "https://github.com/briansimpo/djangospice_api"
+Documentation = "https://github.com/briansimpo/djangospice_api#readme"
+Issues = "https://github.com/briansimpo/djangospice_api/issues"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/djangospice_api"]
+
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
