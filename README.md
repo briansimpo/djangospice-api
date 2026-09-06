@@ -628,10 +628,3 @@ pip install -e .
 djangospice-api is licensed under the **MIT License**.
 
 See [LICENSE](LICENSE) for the full license text.
-
----
-
-# Project
-
-[Djangospice API on GitHub](https://github.com/briansimpo/djangospice_api?utm_source=chatgpt.com)
-
