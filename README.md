@@ -625,6 +625,6 @@ pip install -e .
 
 # License
 
-djangospice-api is licensed under the **MIT License**.
+This package is licensed under the **MIT License**.
 
 See [LICENSE](LICENSE) for the full license text.
