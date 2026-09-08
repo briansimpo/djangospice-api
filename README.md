@@ -1,6 +1,6 @@
 # djangospice-api
 
-Reusable API utilities for **Django** and **Django REST Framework**.
+Reusable API utilities for Django and Django REST Framework.
 
 Djangospice API provides reusable serializers, API routing utilities, permissions, and common ViewSet functionality for building consistent and modular Django REST APIs.
 
