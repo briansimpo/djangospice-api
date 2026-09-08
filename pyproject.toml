@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "djangospice-api"
-version = "0.2.0"
+version = "0.3.0"
 
 description = "Reusable API utilities for Django and Django REST Framework."
 
@@ -61,10 +61,10 @@ dependencies = [
 
 
 [project.urls]
-Homepage = "https://github.com/briansimpo/djangospice_api"
-Repository = "https://github.com/briansimpo/djangospice_api"
-Documentation = "https://github.com/briansimpo/djangospice_api#readme"
-Issues = "https://github.com/briansimpo/djangospice_api/issues"
+Homepage = "https://github.com/briansimpo/djangospice-api"
+Repository = "https://github.com/briansimpo/djangospice-api"
+Documentation = "https://github.com/briansimpo/djangospice-api#readme"
+Issues = "https://github.com/briansimpo/djangospice-api/issues"
 
 
 [tool.hatch.build.targets.wheel]
