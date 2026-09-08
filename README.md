@@ -1,4 +1,4 @@
-# Djangospice API
+# djangospice-api
 
 Reusable API utilities for **Django** and **Django REST Framework**.
 
