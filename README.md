@@ -266,13 +266,6 @@ class CourseSerializer(BaseModelSerializer):
             "department",
         ]
 
-        detail_fields = [
-            "id",
-            "code",
-            "name",
-            "department",
-            "description",
-        ]
 ```
 
 Different field configurations can be provided for:
@@ -605,7 +598,7 @@ and it will be discovered automatically.
 Clone the repository:
 
 ```bash
-git clone https://github.com/briansimpo/djangospice_api.git
+git clone https://github.com/briansimpo/djangospice-api.git
 cd djangospice_api
 ```
 
