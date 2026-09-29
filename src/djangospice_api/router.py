@@ -125,9 +125,7 @@ class APIRouter(DefaultRouter):
                 )
 
             if self._is_registered(prefix):
-                raise ValueError(
-                    f"Duplicate API route prefix: {prefix!r}"
-                )
+               continue
 
             self._configure_permissions(viewset)
 

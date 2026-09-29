@@ -72,5 +72,3 @@ def _import_optional_module(module_name: str) -> ModuleType | None:
     except ModuleNotFoundError as exc:
         if exc.name == module_name:
             return None
-
-        raise
